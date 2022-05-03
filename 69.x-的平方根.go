@@ -1,5 +1,7 @@
 package main
 
+import "math"
+
 /*
  * @lc app=leetcode.cn id=69 lang=golang
  *
@@ -7,21 +9,10 @@ package main
  */
 
 // @lc code=start
-func mySqrt(x int) int {
-	//求6的平方根
 
-	a := x / 2
-	diff := 0
-	b := 0
-	for true {
-		b = (a + x/a) / 2.0
-		diff = a - b
-		a = b
-		if diff < 0 {
-			break
-		}
-	}
-	return a
+func mySqrt(x int) int {
+
+	return int(math.Sqrt(float64(x)))
 
 }
 
