@@ -7,6 +7,7 @@ package main
  */
 
 // @lc code=start
+
 func maxSubArray(nums []int) int {
 
 	if len(nums) == 0 {
