@@ -1,3 +1,10 @@
+---
+title: 二叉树的中序排序
+categories:
+- leetcode
+- leetcode题解
+---
+
 /*
  * @lc app=leetcode.cn id=94 lang=cpp
  *
@@ -52,7 +59,6 @@
  * 进阶: 递归算法很简单，你可以通过迭代算法完成吗？
  * 
  */
-
 // @lc code=start
 /**
  * Definition for a binary tree node.
@@ -72,4 +78,3 @@ public:
     }
 };
 // @lc code=end
-
