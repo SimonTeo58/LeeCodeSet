@@ -1,2 +1,0 @@
-# LeeCodeSet
-solutions of leetcode
